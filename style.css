@@ -1,0 +1,55 @@
+
+    .dest-bar {
+    padding: 7px;
+    margin-top: 5px;
+    width: 300px;
+    display: block;
+    margin-left: 500px;
+    }
+
+    .enter-bar {
+      padding: 7px;
+      width: 300px;
+    }
+
+    .req-bar {
+      padding: 7px;
+      margin-top: 25px;
+      color: white;
+      background-color: black;
+      border: solid;
+    }
+
+    .ter-bar {
+      padding: 7px;
+      color: #000;
+      background-color: rgb(212, 207, 207);
+      border: none;
+    }
+
+    .animation {
+
+      animation-name: slidein;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    }
+
+    .cover {
+
+
+    background-color: beige;
+    margin-top: 100px;
+    text-align: center;
+    }
